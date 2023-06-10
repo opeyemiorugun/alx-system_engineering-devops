@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -h [[:alpha:]] /etc/ssh/sshd_config
+cut -b 1 /etc/ssh/sshd_config | grep -h [[:alpha:]] 
