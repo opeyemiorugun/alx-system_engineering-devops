@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%bestchol+%bestchol\n" "$((water#$WATER))" "$((stir#$STIR))" 
